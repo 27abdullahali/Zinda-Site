@@ -1,0 +1,124 @@
+@charset "UTF-8";
+:root {
+  --background-color: #262F34;
+  --logo-red: #EF3636;
+  --light-blue: #A0DBF2;
+  --black: #384044;
+  --white: #FFFFFF;
+  --dark-gray: #5A5A5A;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Rany", normal;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav-container {
+  background: rgba(255, 255, 255, 0.95);
+  height: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-container .left-nav li {
+  margin: 0 32px;
+}
+
+.nav-container .left-nav li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nav-container .right-nav li {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 32px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+nav {
+  top: 0px;
+  width: 1280px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 32px;
+  gap: 462px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+a.logo {
+  color: var(--logo-red);
+  font-family: 'OTF® Glusp';
+}
+
+a.btn {
+  background: var(--logo-red);
+  color: var(--white);
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 16px 24px;
+}
+
+.hero-container {
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-container h1 {
+  font-family: 'OTF® Glusp';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  color: var(--logo-red);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hero-container img {
+  width: 1280px;
+  height: 100%;
+}
+/*# sourceMappingURL=main.css.map */
